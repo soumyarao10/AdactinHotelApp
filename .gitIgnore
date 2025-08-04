@@ -1,0 +1,71 @@
+# ========== Java Compiled Files ==========
+*.class
+
+# ========== Logs ==========
+*.log
+
+# ========== Package Files ==========
+*.jar
+*.war
+*.ear
+
+# ========== Maven ==========
+target/
+
+# ========== Gradle ==========
+.gradle/
+build/
+
+# ========== IntelliJ IDEA ==========
+.idea/
+*.iml
+*.iws
+out/
+
+# ========== Eclipse ==========
+.project
+.classpath
+.settings/
+bin/
+.factorypath
+.loadpath
+local.properties
+.metadata
+tmp/
+
+# ========== Test Reports ==========
+test-output/
+surefire-reports/
+*.xml
+*.html
+
+# ========== OS Files ==========
+.DS_Store
+Thumbs.db
+
+# ========== Temporary Files ==========
+*.tmp
+*.swp
+
+# ========== Coverage Tools ==========
+jacoco.exec
+coverage/
+*.ec
+*.exec
+
+# ========== Selenium/Browser Driver Logs ==========
+chromedriver.log
+geckodriver.log
+
+# ========== Environment & Properties Files (Optional) ==========
+.env
+*.properties
+config/
+
+# ========== IDE Workspace Files ==========
+*.idea/
+*.vscode/
+
+# ========== Misc ==========
+*.class
+*.lock
