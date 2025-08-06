@@ -27,7 +27,7 @@ public class ExtentReportListener implements ITestListener {
         extent.attachReporter(spark);
 
         extent.setSystemInfo("Environment", "QA");
-        extent.setSystemInfo("Tester", "YourName");
+        extent.setSystemInfo("Tester", "Soumya");
         extent.setSystemInfo("Platform", System.getProperty("os.name"));
         extent.setSystemInfo("Java Version", System.getProperty("java.version"));
     }

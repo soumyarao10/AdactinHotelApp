@@ -97,5 +97,9 @@ public class Login extends TestBase{
 	public String getTextofImpNoteContents() {
 		return adactinImpNoteTxt.getText();
 	}
+	//public SearchHotel(string usname, string passwrd) {
+		//return	
+	//}
+	 
 	}
 

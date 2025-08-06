@@ -1,5 +1,10 @@
 # ========== Java Compiled Files ==========
 *.class
+*.jar
+*.war
+*.ear
+*.nar
+activityLog.log
 
 # ========== Logs ==========
 *.log
@@ -11,6 +16,13 @@
 
 # ========== Maven ==========
 target/
+pom.xml.tag
+pom.xml.next
+pom.xml.bak
+release.properties
+pom.xml.releaseBackup
+pom.xml.versionBackup
+buildNumber.proerties
 
 # ========== Gradle ==========
 .gradle/
