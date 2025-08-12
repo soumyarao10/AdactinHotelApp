@@ -112,7 +112,7 @@ public class SearchHotelPageTest extends TestBase {
         searchHotelPage.selectLocation("Sydney");
         searchHotelPage.selectHotel("Hotel Creek");
         searchHotelPage.selectRoomType("Standard");
-        searchHotelPage.selectNumberOfRooms("1 - One");
+        searchHotelPage.selectNumberOfRooms("2 - Two");
         searchHotelPage.selectAdults("2 - Two");
         searchHotelPage.selectChildren("1 - One");
 
@@ -150,6 +150,7 @@ Thread.sleep(1500);
     }
     
     @Test(priority = 10)
+    
     public void validateErrorWhenNoOfRoomsNotSelectedTest() {
         // Do NOT select Number Of Rooms dropdown 
 

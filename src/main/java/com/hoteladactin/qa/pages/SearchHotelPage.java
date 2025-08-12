@@ -13,6 +13,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.hoteladactin.qa.base.TestBase;
+//
 import com.hoteladactin.qa.util.ElementUtil;
 
 public class SearchHotelPage extends TestBase{
@@ -69,7 +70,6 @@ public class SearchHotelPage extends TestBase{
 	
 	@FindBy(id = "adult_room")
 	WebElement search_AdultsPerRoom;
-	
 	
 	@FindBy(id = "child_room")
 	WebElement search_ChildrenPerRoom;
@@ -275,5 +275,7 @@ public class SearchHotelPage extends TestBase{
 		waitForVisibility(Search_LogoutLink, 10);
 		Search_LogoutLink.click();
 	}
-	
+	public String getSearchHotelPageURL1() {
+	  return driver.getCurrentUrl();
+	}
 }
