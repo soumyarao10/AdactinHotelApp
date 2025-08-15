@@ -19,7 +19,7 @@ import com.hoteladactin.qa.util.ElementUtil;
 public class SearchHotelPage extends TestBase{
 	public WebDriver driver;
 	//public ElementUtil eleUtil;
-	
+	//has its own webdriver reference passed via constructor
 	public SearchHotelPage(WebDriver driver)
 	{
 		this.driver= driver;

@@ -13,7 +13,7 @@ import com.hoteladactin.qa.pages.Login;
 @Listeners(com.hoteladactin.qa.listener.ExtentReportListener.class)
 public class LoginPageTest extends TestBase {
 Login login;
-//WebDriver driver;
+
 
 public LoginPageTest() {
 	super();
